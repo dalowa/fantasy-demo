@@ -1,0 +1,549 @@
+body {
+    background-color: black;
+}
+
+.tw-bg-white {
+    background-color: white;
+    
+}
+
+.tw-overflow-hidden {
+    overflow: hidden;
+}
+
+.tw-h-screen {
+    height: 100vh;
+    
+    
+}
+
+.tw-bold{
+    font-weight: bold;
+}
+
+.img-exp{
+    width: 100%; 
+    object-fit: cover;
+    height: 100%;
+    
+}
+
+.tw-p-0{
+    padding: 0;
+}
+
+.tw-relative {
+    position: relative;
+}
+
+
+/* nav */
+
+.nav-fantasy{
+    background-color: transparent;
+}
+
+/* SECTION 1 */
+.section1-subcontainer {
+    position: absolute;
+    top:auto;
+    bottom: 0;
+    width: 100%;
+    padding: 120px 40px 75px 6.6%;
+    text-align: left;
+    
+}
+
+.section1-button {
+    background-color: transparent;
+    color: white;
+    border: red 2px solid;
+    padding: 15px;
+}
+
+.button-nav {
+    background-color: red;
+    color: red;
+}
+
+.section1-button:hover{
+    background-color: red;
+}
+
+/* SECTION 2 */
+
+.section2-maintext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 25px;
+    background-color: red;
+    left: 0;
+}
+
+.section2-startex {
+    width: 95%;
+    text-align: start;
+}
+
+.section2-subsubtext{
+    
+    font-size: clamp(15px,1.5vw,30px);
+}
+
+.section2-buttondiv {
+    width: 95%;
+    display: flex;
+    justify-content: start;
+}
+
+.section2-buttondiv button {
+    border: white solid 2px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+
+
+
+.section2-subthemetitle {
+    font-size: clamp(30px,3.5vw,70px);
+}
+
+.section2-container2 {
+    background-color: red;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    height: 100vh;
+}
+
+.section2-bigcontainer{
+    position: relative;
+    
+    color: white;
+}
+
+@media (min-width: 992px){
+    .section2-subsubtext{
+        color: #5e5c5c;
+    }
+
+    
+.section2-maintext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+}
+
+.section2-startex {
+    width: 75%;
+    color: black;
+    text-align: start;
+}
+
+.section2-buttondiv {
+    width: 75%;
+    display: flex;
+    justify-content: start;
+}
+
+.section2-buttondiv button {
+    border: red solid 2px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.section2-buttondiv button:hover {
+    border: white solid 2px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+}
+
+/* SECTION 3 */
+
+.container3-padre {
+    overflow: hidden;
+}
+
+
+.section3-maincontainer {
+    display: flex;
+    
+    position: relative;
+}
+
+.section3-subcontainer1 {
+    background-color: transparent;
+    position: absolute;
+    bottom: 70px;
+    color: white;
+    font-weight: bold;
+    left: 0;
+}
+
+.section3-subcontainer1 > div:nth-child(1) {
+    width: 85%;
+    font-size: clamp(20px, 6vw, 75px);
+    
+}
+
+
+.section3-subcontainer1 > div:nth-child(2) {
+    width: 85%;
+    font-weight:normal ;
+    font-size: clamp(15px, 3vw, 25px);
+}
+
+.section3-subcontainer2 {
+    background-color: aqua;
+    overflow: hidden;
+} 
+
+.section3-containervideo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.section3-containervideo video {
+ 
+  height: 100vh; /* Altura automática para mantener la proporción original */
+  object-fit:contain; /* Evita la distorsión de la imagen */
+  object-position: center; /* Posiciona la imagen en el centro */
+  
+}
+
+@media (min-width: 992px) {
+    .section3-subcontainer1 {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: none;
+        color: white;
+        font-weight: bold;
+        left: 0;
+    }
+
+    .section3-subcontainer1 > div:nth-child(1) {
+        width: 70%;
+        
+        color: black;
+        
+    }
+    
+    /* 20px 6vw */
+    
+    .section3-subcontainer1 > div:nth-child(2) {
+        width: 70%;
+        font-weight:normal ;
+        
+        color: gray;
+    }
+}
+
+
+/* SECTION 5 */
+
+
+
+.section5-maincontainer > div:nth-child(1) {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: left;
+}
+
+.section5-maincontainer > div:nth-child(1) > h5 {
+    width: 80%;
+    font-size: clamp(15px, 3vw, 20px);
+}
+
+.section5-maincontainer > div:nth-child(1) > h2 {
+    font-weight: bold;
+    font-size: clamp(25px, 4vw, 60px);
+    width: 80%;
+}
+
+.section5-maincontainer > div:nth-child(1) > p {
+    width: 80%;
+    font-size: clamp(15px, 3vw, 25px);
+    color: gray;
+}
+
+
+.section5-maincontainer > div:nth-child(2) {
+    background-color: red;
+    background-image: url(/assets/wheels-up-sm.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+
+
+@media (min-width: 992px) {
+    .section5-maincontainer > div:nth-child(1) {
+        height: 100vh;
+    }
+    .section5-maincontainer > div:nth-child(2) {
+        height: 100vh;
+        background-image: url(/assets/wheels-up-lg.jpg);
+    }
+}
+
+/* SECTION 6 */
+
+.section6-maincontainer > div:nth-child(1) {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: left;
+    gap: 5px;
+    
+}
+
+.section6-maincontainer > div:nth-child(1) > h5 {
+    width: 80%;
+    color: gray;
+    font-size: clamp(15px, 3vw, 20px);
+}
+
+.section6-maincontainer > div:nth-child(1) > h3 {
+    font-weight: bold;
+    font-size: clamp(25px, 4vw, 60px);
+    
+    width: 80%;
+}
+
+.section6-maincontainer > div:nth-child(1) > div {
+    width: 80%;
+    
+}
+
+.button-section6 {
+    font-size: clamp(15px, 3vw, 25px);
+    color: black;
+    border: solid red 1.5px;
+    padding: 2px 20px;
+    background-color: transparent;
+}
+
+
+.section6-maincontainer > div:nth-child(2) {
+    background-color: red;
+    background-image: url(/assets/dribble-sm.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: top;
+    background-size: cover;
+    height: 50vh;
+}
+
+
+@media (min-width: 992px) {
+    .section6-maincontainer > div:nth-child(1) {
+        height: 100vh;
+    }
+    .section6-maincontainer > div:nth-child(2) {
+        height: 100vh;
+        
+        background-image: url(/assets/dribble-lg.jpg);
+    }
+    .button-section6 {
+        font-size: clamp(15px, 3vw, 25px);
+        color: black;
+        border: solid red 3px;
+        padding: 2px 20px;
+        background-color: transparent;
+    }
+}
+
+/* SECTION 7 */
+
+.section7-maincontainer > div:nth-child(1) {
+    height: 30vh;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 0 7.5vw;
+}
+
+.section7-maincontainer > div:nth-child(1) > h3{
+    font-weight: bold;
+    font-size: clamp(30px, 5vw, 60px);
+}
+
+.section7-maincontainer > div:nth-child(1) > p{
+    color: gray;
+    font-size: clamp(17.5px, 3vw, 30px);
+
+}
+
+.section7-maincontainer > div:nth-child(1) > a{
+    color: red;
+    font-size: clamp(17.5px, 3vw, 25px);
+    font-weight: bold;
+}
+
+
+.section7-maincontainer > div:nth-child(2) {
+    height: 70vh;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20vh;
+}
+
+.section7-maincontainer > div:nth-child(2) > div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section7-maincontainer > div:nth-child(2) > div > h4 {
+    font-weight: bold;
+    font-size: clamp(17.5px, 3vw, 30px);
+}
+
+.section7-maincontainer > div:nth-child(2) > div > p {
+    font-weight: normal;
+    font-size: clamp(17.5px, 3vw, 30px);
+    color: gray;
+}
+
+.section7-maincontainer > div:nth-child(2) > div > img {
+    display: none;
+}
+
+
+
+
+@media (min-width: 992px) {
+
+    .section7-maincontainer > div:nth-child(2) {
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+
+    .section7-maincontainer > div:nth-child(1) {
+        align-items: center;
+    }
+
+    .section7-maincontainer > div:nth-child(2) > div {
+        width: 25vw;
+        margin: 0 auto;
+        display: flex;
+        gap: 0.5vw;
+        flex-direction: column;
+    }
+
+    .section7-maincontainer > div:nth-child(2) > div > img {
+        display: inline;
+    }
+}
+
+
+/* SECTION 8 */
+input {
+    all: initial;
+}
+
+.section8-maincontainer > div:nth-child(1) {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section8-maincontainer > div:nth-child(1) > form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    margin: 0 auto;
+}
+
+.section8-maincontainer > div:nth-child(1) > form > h2 {
+    font-size: clamp(35px, 5vw, 70px);
+    font-weight:bold ;
+}
+
+.section8-maincontainer > div:nth-child(1) > form > button {
+    width: 30%;
+    margin-top: 1vh;
+    padding: 2px 5px;
+}
+
+.section8-maincontainer > div:nth-child(1) > form > label {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.section8-maincontainer > div:nth-child(1) > form > label > span {
+    font-weight: bold;
+    font-size: clamp(20px, 4vw, 30px);
+}
+
+.section8-maincontainer > div:nth-child(1) > form > label > input::placeholder {
+    color: #9e9d9d;
+    font-size: 20px;
+}
+
+.section8-maincontainer > div:nth-child(2){
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section8-maincontainer > div:nth-child(2) > div:nth-child(1) {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    padding: 0 2vw;
+    align-items: start;
+    justify-content: center;
+}
+
+.section8-maincontainer > div:nth-child(2) > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 3vh;
+    gap: 15px;
+    height: 50vh;
+}
+
+.section8-maincontainer > div:nth-child(2) > div:nth-child(2) > div {
+    display: flex;
+    gap: 3vw;
+}
